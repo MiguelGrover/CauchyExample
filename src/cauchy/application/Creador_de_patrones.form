@@ -1,0 +1,853 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                      <Component id="jButton4" alignment="0" max="32767" attributes="0"/>
+                      <Component id="jButton3" alignment="0" max="32767" attributes="0"/>
+                      <Component id="jButton2" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                      <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jButton3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jButton4" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace pref="38" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="jToggleButton1" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton2" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton3" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton4" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton5" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton6" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton7" min="-2" pref="21" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jToggleButton8" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton9" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton10" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton11" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton12" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton13" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton14" min="-2" pref="21" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jToggleButton15" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton16" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton17" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton18" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton19" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton20" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton21" min="-2" pref="21" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jToggleButton22" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton23" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton24" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton25" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton26" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton27" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton28" min="-2" pref="21" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jToggleButton29" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton30" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton31" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton32" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton33" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton34" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton35" min="-2" pref="21" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jToggleButton36" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton37" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton38" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton39" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton40" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton41" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton42" min="-2" pref="21" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jToggleButton43" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton44" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton45" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton46" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton47" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton48" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton49" min="-2" pref="21" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jToggleButton50" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton51" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton52" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton53" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton54" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton55" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton56" min="-2" pref="21" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jToggleButton57" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton58" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton59" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton60" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton61" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton62" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton63" min="-2" pref="21" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jToggleButton7" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton6" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton5" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton4" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton3" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton2" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton1" min="-2" pref="21" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jToggleButton14" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton13" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton12" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton11" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton10" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton9" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton8" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jToggleButton21" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton20" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton19" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton18" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton17" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton16" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton15" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jToggleButton28" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton27" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton26" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton25" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton24" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton23" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton22" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jToggleButton35" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton34" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton33" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton32" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton31" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton30" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton29" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jToggleButton42" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton41" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton40" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton39" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton38" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton37" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton36" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jToggleButton49" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton48" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton47" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton46" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton45" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton44" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton43" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jToggleButton56" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton55" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton54" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton53" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton52" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton51" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton50" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="7" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jToggleButton63" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton62" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton61" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton60" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton59" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton58" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton57" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton1">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton2">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton3">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton4">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton5">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton6">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton7">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton8">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton9">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton10">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton11">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton12">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton13">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton14">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton15">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton16">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton17">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton18">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton19">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton20">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton21">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton22">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton23">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton24">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton25">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton26">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton27">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton28">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton29">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton30">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton31">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton32">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton33">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton34">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton35">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton36">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton37">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton38">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton39">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton40">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton41">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton42">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton43">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton44">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton45">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton46">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton47">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton48">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton49">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton50">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton51">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton52">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton53">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton54">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton55">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton56">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton57">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton58">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton59">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton60">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton61">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton62">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton63">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Guardar patron"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Analizar patron"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Reiniciar mem"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Limpiar sel."/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton4ActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JPanel" name="jPanel3">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jToggleButton127" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton128" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton129" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton130" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton131" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton132" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton133" min="-2" pref="21" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jToggleButton134" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton135" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton136" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton137" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton138" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton139" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton140" min="-2" pref="21" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jToggleButton141" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton142" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton143" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton144" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton145" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton146" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton147" min="-2" pref="21" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jToggleButton148" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton149" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton150" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton151" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton152" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton153" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton154" min="-2" pref="21" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jToggleButton155" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton156" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton157" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton158" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton159" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton160" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton161" min="-2" pref="21" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jToggleButton162" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton163" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton164" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton165" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton166" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton167" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton168" min="-2" pref="21" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jToggleButton169" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton170" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton171" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton172" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton173" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton174" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton175" min="-2" pref="21" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jToggleButton176" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton177" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton178" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton179" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton180" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton181" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton182" min="-2" pref="21" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jToggleButton183" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton184" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton185" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton186" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton187" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton188" min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToggleButton189" min="-2" pref="21" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jToggleButton133" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton132" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton131" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton130" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton129" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton128" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton127" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jToggleButton140" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton139" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton138" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton137" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton136" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton135" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton134" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jToggleButton147" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton146" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton145" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton144" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton143" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton142" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton141" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jToggleButton154" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton153" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton152" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton151" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton150" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton149" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton148" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jToggleButton161" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton160" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton159" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton158" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton157" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton156" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton155" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jToggleButton168" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton167" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton166" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton165" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton164" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton163" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton162" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jToggleButton175" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton174" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton173" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton172" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton171" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton170" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton169" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jToggleButton182" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton181" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton180" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton179" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton178" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton177" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton176" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="7" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jToggleButton189" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton188" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton187" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton186" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton185" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton184" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                      <Component id="jToggleButton183" alignment="0" min="-2" pref="21" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton127">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton128">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton129">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton130">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton131">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton132">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton133">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton134">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton135">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton136">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton137">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton138">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton139">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton140">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton141">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton142">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton143">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton144">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton145">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton146">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton147">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton148">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton149">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton150">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton151">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton152">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton153">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton154">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton155">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton156">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton157">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton158">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton159">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton160">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton161">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton162">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton163">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton164">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton165">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton166">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton167">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton168">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton169">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton170">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton171">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton172">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton173">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton174">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton175">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton176">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton177">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton178">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton179">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton180">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton181">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton182">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton183">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton184">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton185">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton186">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton187">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton188">
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="jToggleButton189">
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

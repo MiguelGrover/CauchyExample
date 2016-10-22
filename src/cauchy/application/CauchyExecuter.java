@@ -29,7 +29,7 @@ public class CauchyExecuter {
                 };
                 
                 int[][] res = {
-                    {1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0}
+                    {1,0,1,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0}
                 };
 		c.inicializar(matriz);
 		c.aprendizaje();

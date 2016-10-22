@@ -9,7 +9,7 @@ public class GCauchy {
 	private int K; // N�mero de patrones
 	private double[][] w; // Matriz de pesos
 	private int[][] S; // Vector con pesos aleatorios
-	private double n = 1, umbral = 0.2, inc = 1, TF = 100;
+	private double n = 1, umbral = 0.2, inc = 1, TF = 1;
 
 	private double T = Double.MAX_VALUE;
 	private double T0;
@@ -19,6 +19,8 @@ public class GCauchy {
 	private double[][] pmas;
 	private double[][] pmenos;
         private int[][] entradas;
+        
+        double errorMaximo = 0;
 	
 	public void inicializar(int[][] e){
 		this.N = e[0].length;
@@ -29,12 +31,13 @@ public class GCauchy {
 		w = new double[N+P][N+P];
 		S = new int[K][N+P];
 		net = new double[N +P];
+                errorMaximo=(((N+P)*(N+P))/100.0)*1;
 		
 		pmas = new double[N + P][N + P];
 		pmenos = new double[N + P][N + P];
 		
-		//this.T0 = (this.N + this.P) * 4;
-                this.T0 = 70;
+		this.T0 = (this.N + this.P) * 4;
+                //this.T0 = 70;
 		Random r = new Random();
 		double rangeMin = -1d, rangeMax = 1d;
 		for(int i = 0; i < N + P; i++){
@@ -171,12 +174,14 @@ public class GCauchy {
 			}
 		}
 		
+                double sumatoria = 0;
 		double deltaw = 0.0;
                 deltawmax = 0.0;
 		for(int i = 0; i < N + P; i++){
 			for(int j = 0; j < N + P; j++){
 				deltaw = n * (pmas[i][j] - pmenos[i][j]);
 				w[i][j] += deltaw;
+                                sumatoria+=Math.abs(deltaw);
                                 //System.out.print(String.format("%.2f",deltaw) + " ");
 				if(Math.abs(deltaw) > deltawmax){
 					deltawmax = Math.abs(deltaw);
@@ -185,12 +190,15 @@ public class GCauchy {
 			}
                         //System.out.println();
 		}
+                deltawmax = sumatoria;
+                
 		//System.out.println();
-		}while(deltawmax > umbral);
-		
+		//}while(deltawmax > umbral);
+                    System.out.println(deltawmax+" de "+ errorMaximo);
+		}while(deltawmax > errorMaximo);
 	}
 	
-	public void funcionamiento(){
+	public int[] funcionamiento(){
 		double Pnet = 0d;
 		double x = 0d;
 		double deltawmax = 0d;
@@ -219,12 +227,16 @@ public class GCauchy {
 			T = Double.MAX_VALUE;
 			t = 0;
 		}
-		
+		int[] arreglo = new int[N*K];
+                int contador = 0;
 		for(int k = 0; k < K; k++){
 			for(int i = 0; i < N; i++){
 				System.out.print(S[k][i] + " ");
+                                arreglo[contador] = S[k][i];
+                                contador++;
 			}
 			System.out.println();
 		}
+                return arreglo;
 	}
 }
