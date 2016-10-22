@@ -27,9 +27,13 @@ public class CauchyExecuter {
                     {0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0},
                     {1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,1}
                 };
+                
+                int[][] res = {
+                    {1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0}
+                };
 		c.inicializar(matriz);
 		c.aprendizaje();
-		c.inicializarf(matriz);
+		c.inicializarf(res);
 		c.funcionamiento();
 	}
 
