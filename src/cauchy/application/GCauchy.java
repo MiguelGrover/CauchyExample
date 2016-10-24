@@ -170,9 +170,6 @@ public class GCauchy {
 				if(i < N){
 					S[j][i] = entradas[j][i];
 				}
-				else{
-					
-				}
 			}
 		}
 		
@@ -208,7 +205,7 @@ public class GCauchy {
 		
 		for(int k = 0; k < K; k++){
 			do{
-				for(int oculto = 0; oculto < P; oculto++){
+				for(int oculto = 0; oculto < N + P; oculto++){
 					int i = r.nextInt(P + N);
 					net[i] = 0;
 					for(int j = 0; j < N + P; j++){
