@@ -12,7 +12,7 @@ import java.util.ArrayList;
  * @author miguel
  */
 public class registro_entradas {
-    private static ArrayList<int[]> entradas;
+    private static ArrayList<int[]> entradas = new ArrayList<int[]>();
     
     public static void init(){
         entradas = new ArrayList<int[]>();

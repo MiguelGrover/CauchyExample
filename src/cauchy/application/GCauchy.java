@@ -37,7 +37,9 @@ public class GCauchy {
 		pmenos = new double[N + P][N + P];
 		
 		this.T0 = (this.N + this.P) * 4;
+                this.TF = 20;
                 //this.T0 = 70;
+                //this.TF = 100;
 		Random r = new Random();
 		double rangeMin = -1d, rangeMax = 1d;
 		for(int i = 0; i < N + P; i++){
